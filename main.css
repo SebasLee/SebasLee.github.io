@@ -2,8 +2,79 @@
     background-color: #2E2E2E;
 }
 
-nav a {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color: #ffffff;
+.intro {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.intro img {
+    object-fit: cover;
+    height: 1170px;
+}
+
+.introtext {
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
+
+.introtext h1 {
+    background: transparent;
+    font-size: 65px;
+    animation: fadeIn ease 4s;
+    -webkit-animation: fadeIn ease 4s;
+    -moz-animation: fadeIn ease 4s;
+    -o-animation: fadeIn ease 4s;
+    -ms-animation: fadeIn ease 4s;
+}
+
+.introtext h2 {
+    background: transparent;
+    font-size: 27px;
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
+}
+
+.introtext a {
+    font-size: 33px;
+    padding: 12px;
+    color: white;
+    background: transparent;
+    animation: fadeIn ease 9s;
+    -webkit-animation: fadeIn ease 9s;
+    -moz-animation: fadeIn ease 9s;
+    -o-animation: fadeIn ease 9s;
+    -ms-animation: fadeIn ease 9s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+@-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
 }
