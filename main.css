@@ -104,3 +104,13 @@
 .school {
     margin-top: 35px;
 }
+
+.projects {
+    margin-top: 75px;
+}
+
+.projects h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
