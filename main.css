@@ -6,7 +6,10 @@
     position: relative;
     text-align: center;
     color: white;
+    font-family: 'Raleway', sans-serif;
+    /*
     font-family: 'Poiret One', cursive;
+    */
 }
 
 .intro img {
@@ -81,5 +84,23 @@
 
 .bio {
     color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 25px;
+    width: 33%;
+    font-size: 20px;
+    float: left;
+    /*
     font-family: 'Poiret One', cursive;
+    */
+}
+
+.face {
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding-right: 35px;
+}
+
+.school {
+    margin-top: 35px;
 }
