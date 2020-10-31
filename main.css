@@ -11,12 +11,12 @@
 
 .intro img {
     object-fit: cover;
-    height: 1170px;
+    height: auto;
 }
 
 .introtext {
     position: absolute;
-    top: 12%;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
