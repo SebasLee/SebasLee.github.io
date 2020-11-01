@@ -104,3 +104,35 @@
 .school {
     margin-top: 35px;
 }
+
+.projects {
+    margin-top: 75px;
+}
+
+.projects h1 {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.list a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.contact {
+    position: absolute;
+    margin-top: 50px;
+    background-color: black;
+    width: 100%;
+}
+
+.contact h1 {
+    width: 100%;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 10px;
+}
