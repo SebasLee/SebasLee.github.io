@@ -114,6 +114,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .list a {
@@ -136,4 +137,15 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     padding: 10px;
+    padding-left: 15px;
+    font-size: 37px;
+}
+
+.contact h2 {
+    width: 100%;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
 }
