@@ -37,12 +37,13 @@
 
 .introtext h2 {
     background: transparent;
-    font-size: 27px;
+    font-size: 35px;
     animation: fadeIn ease 7s;
     -webkit-animation: fadeIn ease 7s;
     -moz-animation: fadeIn ease 7s;
     -o-animation: fadeIn ease 7s;
     -ms-animation: fadeIn ease 7s;
+    margin-bottom: 60px;
 }
 
 .introtext a {
@@ -113,6 +114,7 @@
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
+    margin-bottom: 40px;
 }
 
 .list a {
@@ -135,4 +137,15 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     padding: 10px;
+    padding-left: 15px;
+    font-size: 37px;
+}
+
+.contact h2 {
+    width: 100%;
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
 }
