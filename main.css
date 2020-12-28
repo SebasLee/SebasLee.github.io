@@ -1,19 +1,43 @@
 * {
+    margin: 0;
+    padding: 0;
     background-color: #2E2E2E;
 }
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav img {
+    float: left;
+}
+
+nav a {
+    font-size: 20px;
+    float: left;
+    margin-bottom: 30px;
+    margin-left: 17px;
+    color: white;
+    margin-top: 27px;
+    padding-right: 10px;
+    /* 
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    */
+}
+
+/**
 
 .intro {
     position: relative;
     text-align: center;
     color: white;
-    font-family: 'Raleway', sans-serif;
-    /*
-    font-family: 'Poiret One', cursive;
-    */
 }
 
 .intro img {
-    object-fit: cover;
     height: auto;
 }
 
@@ -46,17 +70,6 @@
     margin-bottom: 60px;
 }
 
-.introtext a {
-    font-size: 30px;
-    padding: 12px;
-    color: white;
-    background: transparent;
-    animation: fadeIn ease 9s;
-    -webkit-animation: fadeIn ease 9s;
-    -moz-animation: fadeIn ease 9s;
-    -o-animation: fadeIn ease 9s;
-    -ms-animation: fadeIn ease 9s;
-}
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -83,6 +96,8 @@
     100% {opacity:1;}
 }
 
+
+
 .bio {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -90,9 +105,6 @@
     width: 33%;
     font-size: 20px;
     float: left;
-    /*
-    font-family: 'Poiret One', cursive;
-    */
 }
 
 .face {
@@ -149,3 +161,4 @@
     padding: 10px;
     padding-left: 15px;
 }
+*/
