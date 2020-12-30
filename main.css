@@ -32,37 +32,21 @@ body {
     color: white;
     padding-right: 8px;
     margin-left: 17px;
-    /* 
-    animation: fadeIn ease 3s;
-    -webkit-animation: fadeIn ease 3s;
-    -moz-animation: fadeIn ease 3s;
-    -o-animation: fadeIn ease 3s;
-    -ms-animation: fadeIn ease 3s;
-    */
 }
-
-/*
-.contact-info {
-    color: white;
-    padding-left: 20px;
-}
-*/
-
-/**
 
 .intro {
-    position: relative;
     text-align: center;
     color: white;
 }
 
 .intro img {
+    position: relative;
     height: auto;
 }
 
 .introtext {
     position: absolute;
-    top: 15%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
@@ -115,7 +99,27 @@ body {
     100% {opacity:1;}
 }
 
+@media only screen and (max-width: 1000px) {
+    .introtext {
+        top: 25%;
+    }
 
+    .introtext h1 {
+        font-size: 50px;
+    }
+
+    .introtext h2 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-height: 600px) {
+    .introtext {
+        top: 57%;
+    }
+}
+
+/*
 
 .bio {
     color: white;
