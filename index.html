@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
+    <script defer src="./app.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
@@ -15,6 +16,13 @@
             <a href="https://www.linkedin.com/in/sebastian-lee-925970183/" target="_blank">LinkedIn</a> 
             <a href="https://github.com/SebasLee" target="_blank">Github</a>
         </div>  
+        <button onclick=scroll()>Bio</button>
+        <script>
+            function scroll() {
+            var elmnt = document.getElementsById("who");
+            elmnt.scrollIntoView();
+            };    
+        </script>
     </nav>    
     <div class="intro">
         <img src="images/LA.jpg" alt="background" style="width:100%;">
@@ -24,7 +32,7 @@
           </div>   
     </div> 
     <div class="bio">
-        <h1>Who am I?</h1>
+        <h1 id="who">Who am I?</h1>
         <p>I am a junior developer who recently graduated from the Software Engineering Immersive program from General Assembly, Los Angeles. I learned many pragramming langauges during the course, such as HTML5/CSS3, Javascript, Node.js, MongoDb, Express, Python, React.js, etc. In addition to coding, I also studied History at Cal Poly, San Luis Obispo and UX Design at the Santa Monica General Assembly location. With addition of my professional experieces, I come from a diverse background that allows me to understand the value of different business aspects and how come together to form innovative projects.</p>
     </div>  
     <div class="face">
