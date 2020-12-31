@@ -8,12 +8,20 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-.links img {
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav img {
     float: left;
     height: auto;
 }
 
 .social-media {
+    background-color: black;
     padding-right: 23px;
     padding-top: 6px;
     padding-bottom: 6px;
@@ -28,6 +36,7 @@ body {
 }    
 
 .social-media a {
+    background-color: black;
     font-size: 20px;
     color: white;
     padding-right: 8px;
@@ -37,16 +46,20 @@ body {
 .intro {
     text-align: center;
     color: white;
+    z-index: 1;
 }
 
 .intro img {
-    position: relative;
     height: auto;
+}
+
+#slo {
+    height: 67px;
 }
 
 .introtext {
     position: absolute;
-    top: 40%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
@@ -73,6 +86,21 @@ body {
     margin-bottom: 60px;
 }
 
+.bio {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 25px;
+    width: 33%;
+    font-size: 20px;
+    float: left;
+}
+
+.face {
+    float: left;
+    margin-top: 35px;
+    margin-left: 50px;
+    padding-right: 35px;
+}
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -120,23 +148,6 @@ body {
 }
 
 /*
-
-.bio {
-    color: white;
-    font-family: 'Raleway', sans-serif;
-    margin-left: 25px;
-    width: 33%;
-    font-size: 20px;
-    float: left;
-}
-
-.face {
-    float: left;
-    margin-top: 35px;
-    margin-left: 50px;
-    padding-right: 35px;
-}
-
 .school {
     margin-top: 35px;
 }
