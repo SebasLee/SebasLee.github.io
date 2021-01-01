@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #2E2E2E;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color:#2E2E2E;
 }
 
 .links {
@@ -157,13 +157,17 @@ body {
 }
 
 .projects {
+    list-style-type: none;
     margin-top: 630px;
+    background-color: black;
+    padding-bottom: 70px;
 }
 
 .projects h1 {
     text-align: center;
     color: white;
     margin-bottom: 40px;
+    padding-top: 30px;
 }
 
 .list a {
