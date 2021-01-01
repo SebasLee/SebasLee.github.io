@@ -8,19 +8,19 @@ body {
     font-family: 'Quicksand', sans-serif;
 }
 
-nav {
+.links {
     background-color: black;
     position: fixed;
     width: 100%;
     z-index: 2;
 }
 
-nav img {
+.links img {
     float: left;
     height: auto;
 }
 
-nav button {
+.links button {
     float: left;
     margin-left: 27px;
     color: white;
@@ -31,6 +31,45 @@ nav button {
     font-family: 'Quicksand', sans-serif;
 }
 
+/* The Modal (background) */
+
+.modal {
+    display: none; /* Hidden by default */
+    z-index: 1; /* Sit on top */
+    padding-top: 70px;
+    padding-bottom: 0px;
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+  }
+
+  .modal-content p {
+    background-color: white;
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  /* The Close Button */
+  .close {
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    color: #C10600;
+  }
+  
+  .close:hover,
+  .close:focus {
+    cursor: pointer;
+  }
+  
 .social-media {
     background-color: black;
     padding-right: 23px;
@@ -131,30 +170,7 @@ nav button {
     color: white;
     font-size: 20px;
     padding: 20px;
-}
-
-.contact {
-    position: absolute;
-    margin-top: 50px;
-    background-color: black;
-    width: 100%;
-}
-
-.contact h1 {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    padding-left: 15px;
-    font-size: 37px;
-}
-
-.contact h2 {
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    padding-left: 15px;
+    padding-bottom: 50px;
 }
 
 @keyframes fadeIn {
@@ -200,9 +216,4 @@ nav button {
     .introtext {
         top: 27%;
     }
-}
-
-/*
-.school {
-    margin-top: 35px;
 }
