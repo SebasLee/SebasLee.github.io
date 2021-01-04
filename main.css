@@ -157,8 +157,13 @@ body {
 }
 
 .slideshow-container {
-    margin-top: 35px;
+    margin-top: 25px;
     padding: 0;
+}
+
+.slideshow-container h1 {
+    color: white;
+    padding-bottom: 8px;
 }
 
 .slideshow-container a {
@@ -170,7 +175,7 @@ body {
 }
 
 .numbertext {
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .prev, .next {
@@ -181,7 +186,7 @@ body {
 }
 
 .next {
-    margin-left: 275px;
+    margin-left: 270px;
 }
   
 .projects {
