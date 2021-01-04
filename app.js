@@ -41,5 +41,5 @@ function showSlides(n) {
 showSlides(slideIndex);
 
 //slides.length: 4
-//slides: 0 to 3 only
-//slidesIndex: 1 to 4 only
+//slides: 0 to 5 only
+//slidesIndex: 1 to 6 only
