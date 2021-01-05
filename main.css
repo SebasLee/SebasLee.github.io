@@ -21,6 +21,7 @@ body {
 }
 
 .links button {
+    cursor: pointer;
     float: left;
     margin-left: 27px;
     color: white;
@@ -166,9 +167,7 @@ body {
     padding-bottom: 8px;
 }
 
-.slideshow-container a {
-    color: white;                       
-}
+
 
 .mySlides {
     color: white;
@@ -246,6 +245,17 @@ body {
 
     .introtext h2 {
         font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .bio {
+        width: 20%;
+    }
+
+    .face {
+        width: 80%;
+        height: 80%;
     }
 }
 

@@ -19,11 +19,6 @@ span.onclick = function() {
 
 var slideIndex = 1;
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
 function showSlides(n) {
   var slides = document.getElementsByClassName("mySlides");
   if (n > slides.length) {
@@ -40,6 +35,7 @@ function showSlides(n) {
 
 showSlides(slideIndex);
 
-//slides.length: 4
-//slides: 0 to 5 only
-//slidesIndex: 1 to 6 only
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
