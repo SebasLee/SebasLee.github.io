@@ -167,8 +167,6 @@ body {
     padding-bottom: 8px;
 }
 
-
-
 .mySlides {
     color: white;
 }
@@ -234,30 +232,38 @@ body {
     100% {opacity:1;}
 }
 
-@media only screen and (max-width: 1000px) {
-    .introtext {
-        top: 15%;
+@media only screen and (max-width: 1400px) {
+    .slideshow-container h1 {
+        display: none;
     }
 
-    .introtext h1 {
-        font-size: 50px;
+    .numbertext {
+        display: none;
     }
 
-    .introtext h2 {
-        font-size: 25px;
+    .mySlides img {
+        display: none;
+    }
+
+    .prev, .next {
+        display: none;
+    }
+
+    .projects {
+        margin-top: 800px;
     }
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1700px) {
     .bio {
-        width: 20%;
+        width: 25%;
     }
 
     .face {
-        width: 80%;
-        height: 80%;
+        margin-right: 90px;
     }
 }
+    
 
 @media only screen and (max-height: 950px) {
     .introtext {
