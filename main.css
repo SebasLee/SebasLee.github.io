@@ -55,6 +55,15 @@ body {
     margin-left: 17px;
 }
 
+.contact h2 {
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 26px;
+}
+
 .intro {
     text-align: center;
     color: white;
