@@ -31,45 +31,6 @@ body {
     border: none;
     font-family: 'Quicksand', sans-serif;
 }
-
-/* The Modal (background) */
-
-.modal {
-    display: none; /* Hidden by default */
-    z-index: 1; /* Sit on top */
-    padding-top: 70px;
-    padding-bottom: 0px;
-    height: 100%; /* Full height */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    width: 60%;
-  }
-
-  .modal-content p {
-    background-color: white;
-    margin-top: 15px;
-    font-size: 22px;
-    font-weight: bolder;
-  }
-  
-  /* The Close Button */
-  .close {
-    background-color: white;
-    font-size: 25px;
-    font-weight: bold;
-    color: #C10600;
-  }
-  
-  .close:hover,
-  .close:focus {
-    cursor: pointer;
-  }
   
 .social-media {
     background-color: black;
@@ -156,39 +117,10 @@ body {
     margin-left: 50px;
     margin-right: 150px;
 }
-
-.slideshow-container {
-    margin-top: 25px;
-    padding: 0;
-}
-
-.slideshow-container h1 {
-    color: white;
-    padding-bottom: 8px;
-}
-
-.mySlides {
-    color: white;
-}
-
-.numbertext {
-    font-size: 22px;
-}
-
-.prev, .next {
-    width: auto;
-    font-size: 50px;
-    cursor: pointer;
-    color: white;
-}
-
-.next {
-    margin-left: 270px;
-}
   
 .projects {
     list-style-type: none;
-    margin-top: 200px;
+    margin-top: 600px;
     background-color: black;
     padding-bottom: 70px;
 }
@@ -246,19 +178,7 @@ body {
 }
 
 @media only screen and (max-width: 1400px) {
-    .slideshow-container h1 {
-        display: none;
-    }
-
     .numbertext {
-        display: none;
-    }
-
-    .mySlides img {
-        display: none;
-    }
-
-    .prev, .next {
         display: none;
     }
 
