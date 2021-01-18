@@ -71,7 +71,7 @@ body {
 }
 
 .intro img {
-    height: auto;
+    margin-top: 65px;
 }
 
 #slo {
@@ -79,6 +79,8 @@ body {
 }
 
 .introtext {
+    font-family: 'Bungee Shade', cursive;
+    color: #323232;
     position: absolute;
     top: 17%;
     left: 50%;
