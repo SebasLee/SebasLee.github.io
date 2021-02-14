@@ -166,6 +166,12 @@ body {
     padding-bottom: 50px;
 }
 
+.list img {
+    height: 20%;
+    width: 20%;
+    
+}
+
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}
