@@ -79,8 +79,8 @@ body {
 }
 
 .introtext {
-    font-family: 'Bungee Shade', cursive;
-    color: #323232;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
     position: absolute;
     top: 17%;
     left: 50%;
@@ -135,8 +135,8 @@ body {
 }
 
 .column img {
-    height: 300px;
-    width: 300px;
+    height: 190px;
+    width: 190px;
 }
   
 .row::after {
@@ -157,12 +157,31 @@ body {
     color: white;
     margin-bottom: 40px;
     padding-top: 30px;
+    font-size: 33px;
 }
 
 .projects a {
     color: white;
     font-size: 20px;
     padding: 15px;
+}
+
+.writing-samples {
+    background-color: black;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.writing-samples h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.writing-samples a {
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    background-color: black;
 }
 
 @keyframes fadeIn {
