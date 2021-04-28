@@ -228,25 +228,21 @@ body {
 }
 
 @media only screen and (max-width: 1400px) {
-    .numbertext {
-        display: none;
+    .bio {
+        width: 30%;
     }
-
-    .face {
-        margin-left: 120px;
-    }
-
+    
     .projects {
         margin-top: 300px;
     }
 }
 
 @media only screen and (max-width: 1700px) {
-    
-
-    .face {
-        margin-right: 90px;
+    .bio {
+        width: 30%;
     }
+
+    
 }
     
 
