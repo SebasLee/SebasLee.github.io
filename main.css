@@ -124,11 +124,9 @@ body {
 
 .face {
     float: left;
-    margin-top: 35px;
-    margin-left: 50px;
-    margin-right: 70px;
 }
-  
+
+/*
 .column {
     float: left;
     padding: 5px;
@@ -149,10 +147,14 @@ body {
     clear: both;
     display: table;
 }
+*/
+
+.bottom {
+    margin-top: 500px;
+}
 
 .projects {
     list-style-type: none;
-    margin-top: 300px;
     background-color: black;
     padding-bottom: 70px;
 }
@@ -214,19 +216,13 @@ body {
     100% {opacity:1;}
 }
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1700px) {
     .bio {
-        display: none;
-    }
-    .face {
-        text-align: center;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 0;
-        float: none;
+        width: 40%;
     }
 }
 
+/*
 @media only screen and (max-width: 1400px) {
     .bio {
         width: 30%;
@@ -244,7 +240,7 @@ body {
 
     
 }
-    
+*/  
 
 @media only screen and (max-height: 950px) {
     .introtext {
