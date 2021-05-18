@@ -216,7 +216,7 @@ body {
     100% {opacity:1;}
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1800px) {
     .bio {
         width: 40%;
     }
